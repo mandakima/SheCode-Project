@@ -1,0 +1,127 @@
+html,
+body {
+  background-color: #fff4f0;
+  color: #22211d;
+  font-family: "Lato", sans-serif;
+}
+
+h1 {
+  font-family: "Amaranth", sans-serif;
+  font-size: 60px;
+}
+
+a {
+  text-decoration: none;
+  color: #f16f3b;
+}
+
+a:hover {
+  color: #f5e6ea;
+}
+
+a:visited {
+  color: #008080;
+}
+
+.container {
+  margin: 20px auto;
+  max-width: 1000px;
+}
+
+.card {
+  padding: 50px;
+  border-radius: 50px;
+  border: 0;
+
+  box-shadow: 4px 4px 15px 1px rgb(0 0 0 / 5%);
+}
+
+.form-group {
+  margin-left: 0 auto;
+  padding-bottom: 30px;
+}
+
+.form-inline .form-group {
+  display: inline-block;
+}
+
+.form-control {
+  border: 0;
+  border-radius: 5px;
+  min-width: 300px;
+}
+
+.btn {
+  border: 0;
+  margin-top: 3px;
+}
+
+.temp-current p,
+.temp-future p {
+  color: #0a0a0a;
+}
+
+.temp-current p {
+  font-size: 120px;
+}
+
+.temp-future p {
+  font-size: 40px;
+}
+
+.temp-current sup,
+.temp-future sup {
+  position: relative;
+}
+
+.temp-current sup {
+  font-size: 30px;
+  top: -70px;
+}
+
+.temp-current p {
+  display: inline;
+}
+
+.temp-current img {
+  position: relative;
+  top: -40px;
+}
+
+.temp-current .active {
+  color: #ff7b00;
+  cursor: default;
+}
+
+#forecast {
+  text-align: center;
+}
+
+.temp-future sup {
+  font-size: 15px;
+  top: -20px;
+}
+
+.btn-success,
+.btn-success:visited,
+.btn-success:focus {
+  background-color: #f7d2c3;
+}
+
+.btn-success:hover {
+  background-color: #f5e6ea;
+}
+
+.btn-secondary:hover {
+  background-color: #f5e6ea;
+}
+
+.btn-secondary,
+.btn-success:visited,
+.btn-success:focus {
+  background-color: #e29578;
+}
+
+.open-source-link {
+  padding: 10px 0 0 40px;
+}
